@@ -11,7 +11,7 @@ from pandasai import PandasAI
 #openai_api_key = os.getenv("OPENAI_API_KEY")
 
 def chat_with_csv(df,prompt):
-    llm = OpenAI(api_token='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')
+    llm = OpenAI(api_token='sssssssssssssssssd4V2I5yiT3BlbkFJloQaDmdCx0JEnaeOok7z')
     pandas_ai = PandasAI(llm)
     result = pandas_ai.run(df, prompt=prompt)
     print(result)
